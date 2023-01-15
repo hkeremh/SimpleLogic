@@ -1,0 +1,98 @@
+body {
+    background-color: #c7e0e3;
+    margin:0;
+    padding:0;
+    /* background: white; */
+    color: #6e7cb3;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+button {
+    background: #a9dce3;
+    color: #6e7cb3;
+    border: none;
+    /* padding: 20px; */
+    text-align: center;
+    /* text-decoration: none; */
+    display:inline-block;
+    /* font-size: 16px; */
+    margin: 4px 2px;
+    border-radius:3px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #7b9fa4;
+}
+header{
+    background: #a9dce3;
+    height:6fr;
+    margin:0;
+    padding:1%;
+    user-select: none;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display:flexbox;
+    /* background-color: #333333; */
+}
+header li {
+    display:inline-block;
+    /* float: left; */
+    /* float:inline-end; */
+}
+header li a{
+    /* background: pink;
+    border-right:solid;
+    border-left:solid;
+    border-color:rgb(177, 136, 143);
+     border-right:outset; 
+    margin: 0; */
+    display:inline-block;
+    color: #6e7cb3;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+header li a.header-element:hover {
+    background-color: #7b9fa4;
+}
+
+.logo {
+    color:#7689de;
+    font-size: 35px;
+    padding-right: 5%;
+    width:240px;
+    cursor:default;
+    /* color:rgb(91, 189, 187);*/
+}
+.basys:hover {
+    background-image: url(images/shervin.jpeg);
+    background-repeat: no-repeat;
+    background-size: 31px; 
+}
+
+.text-field {
+    width: 50px;    
+}
+
+/* LOGIC */
+ul.truth-table-list{
+    display:table;
+}
+ul.truth-table-list li{
+    display:table-cell;
+    width: 100px;
+    text-align: center;
+    border-style: solid;
+}
+ul.truth-table-list .newline{
+    display:table-column-group;
+}
