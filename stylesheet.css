@@ -84,6 +84,9 @@ header li a.header-element:hover {
 }
 
 /* LOGIC */
+.som-field{
+    width:50px;
+}
 ul.truth-table-list{
     display:table;
 }
