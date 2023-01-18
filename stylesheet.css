@@ -6,6 +6,12 @@ body {
     color: #6e7cb3;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+h1{
+    margin-left: 10px;
+}
+h2{
+    margin-left: 80px;
+}
 button {
     background: #a9dce3;
     color: #6e7cb3;
@@ -80,7 +86,7 @@ header li a.header-element:hover {
 }
 
 .text-field {
-    width: 50px;    
+    width: 50px;
 }
 
 /* LOGIC */
@@ -98,4 +104,11 @@ ul.truth-table-list li{
 }
 ul.truth-table-list .newline{
     display:table-column-group;
+}
+.table-text-field {
+    text-align: center;
+    background-color:inherit;
+    color: inherit;
+    text-decoration: none;
+    border: none;
 }
